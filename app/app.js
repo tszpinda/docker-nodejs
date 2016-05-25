@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({extended: false}));
 
 app.use(cors);
 app.use('/status', status);
-
+app.use(express.static('public'));
 
 app.use(function(err, req, res, done) {
   if(err)
