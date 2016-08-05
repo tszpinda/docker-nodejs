@@ -22,5 +22,8 @@ module.exports = {
     },
     getIndexPage: function(){
         return send('/index.html', 'text/html');
+    },
+    getPage: function(url){
+        return send(url, 'text/html');
     }
 };

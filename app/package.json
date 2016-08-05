@@ -8,7 +8,8 @@
     "co": "^4.6.0",
     "co-express": "^1.2.1",
     "express": "^4.13.4",
-    "winston": "^2.2.0"
+    "winston": "^2.2.0",
+    "pug": "^2.0.0-beta4"
   },
   "devDependencies": {
     "gulp": "^3.9.1",

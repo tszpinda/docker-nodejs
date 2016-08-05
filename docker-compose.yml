@@ -15,7 +15,5 @@ services:
       options:
         max-size: "10"
         max-file: "10"
-    extra_hosts:
-      - "gym:172.17.0.1"
-      - "gym.shinecoding.co.uk:172.17.0.1"
-      - "sync.shinecoding.co.uk:172.17.0.1"
+    ports:
+      - "3000:3000"
